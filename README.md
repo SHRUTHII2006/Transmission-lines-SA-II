@@ -5,6 +5,11 @@
 Modern-day battlefield superiority is not solely determined by firepower — it hinges on reliable, interference-proof, and real-time communication systems. At the core of these RF systems lie S-parameters (Scattering Parameters) — foundational tools in high-frequency analysis and component design.
 This report explores how S-parameters were instrumental during Operation Vajra Strike, a 2023 cross-border precision strike along the LoC in Kupwara, Jammu & Kashmir. From stealth drone surveillance to encrypted soldier communication, S-parameter principles ensured resilient performance in harsh and signal-hostile terrains.
 
+
+![image](https://github.com/user-attachments/assets/0c0a26b8-3e48-4637-802a-a6b695c1514c)
+
+
+
 ## 2. Background:
 
 Operation Vajra Strike, Kupwara (2023)
@@ -24,6 +29,8 @@ Key Technologies Deployed:
 - SDRs (Software Defined Radios) for real-time updates
 
 - Portable electronic warfare (EW) kits
+
+
 
 ## 3. Reflection Coefficient (Γ)
  
@@ -54,6 +61,11 @@ VSWR measures impedance match efficiency. Lower VSWR (~1.1:1) indicates efficien
 
 EW jammers deployed near forward posts maintained low VSWR to maximize interference range and suppress enemy communication without wasting output energy.
 
+
+![image](https://github.com/user-attachments/assets/f107910a-b7a7-4180-8d8f-3013cf51d005)
+
+
+
 ## 5. Return Loss (RL)
 
 ![image](https://github.com/user-attachments/assets/33b41604-55ff-46d9-a0eb-7aca3eb202ad)
@@ -77,6 +89,9 @@ Insertion loss quantifies how much signal strength is lost through a component. 
 **Real-Time Application:**
 
 Ground-to-UAV data links used low-loss coaxial connectors and duplexers with minimal IL to ensure that weak radar returns from high altitudes were still usable for target tracking.
+
+![image](https://github.com/user-attachments/assets/7413ced3-3365-4903-b01c-a545073c311c)
+
 
 ## 7. S-Matrix Representation (2-Port)
 
@@ -108,6 +123,9 @@ This equation computes power delivered to the load after accounting for reflecte
 
 Command relays had to ensure maximum delivered power during mountain-pass transmissions, where signal loss is already high due to terrain. Engineers fine-tuned transmitter gain using this formula.
 
+![image](https://github.com/user-attachments/assets/761e0e10-a57b-4e99-9d9c-edac6cccbeb9)
+
+
 ## 9. Z to S Parameter Conversion
 
 ![image](https://github.com/user-attachments/assets/4d3b8746-fa6c-4b2a-b854-b08cd739c970)
@@ -131,6 +149,10 @@ This fundamental definition forms the basis of how network analyzers test multi-
 **Real-Time Application:**
 
 Quick-deploy base stations near the LoC used multi-port network analyzers to verify system health and isolate faults in minutes.
+
+
+![image](https://github.com/user-attachments/assets/c897db26-ebe1-4002-aae2-9958c2f5024f)
+
 
 ## Conclusion: Signal Engineering: The Silent Force Multiplier
 
